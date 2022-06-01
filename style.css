@@ -1,0 +1,121 @@
+#bob {
+
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+
+}
+
+#face {
+    background-color: yellow;
+    height: 70%;
+}
+
+#eyes {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+#left_eye {
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 5%;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#left_iris_eye {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(28, 125, 190);
+    border: 2px solid black;
+    margin-top: 10%;
+}
+
+#left_iris_pupil {
+
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 15%;
+}
+
+#right_eye {
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 5%;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#right_iris_eye {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(28, 125, 190);
+    border: 2px solid black;
+    margin-top: 10%;
+}
+
+#right_iris_pupil {
+
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 5%;
+}
+
+#teeth{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    
+}
+.tooth{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+#shirt {
+    background-color: white;
+    height: 20%;
+    border-top: 2px solid black;
+}
+
+#trousers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+    background-color: rgb(78, 22, 22);
+    height: 10%;
+    border-top: 2px solid black;
+}
+
+.trouser_element {
+    height: 10px;
+    width: 70px;
+    background-color: black;
+
+}
